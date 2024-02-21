@@ -22,14 +22,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "index.html", // adjust the path to your HTML template
+      template: "index.html",
     }),
   ],
-
-  // plugins: [
-  //   new HtmlWebpackPlugin({
-  //     template: "./index.html", // Path to your HTML template
-  //     filename: "index.html", // Output HTML file name
-  //   }),
-  // ],
 };
